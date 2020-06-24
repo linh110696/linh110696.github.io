@@ -1,0 +1,439 @@
+/*chỉnh dấu dash đầu các mục*/
+.mdash {
+    color: #0072d3;
+    font-size: 25px;
+    float: left;
+    margin: -5px 0 0 -3px;
+}
+/*chỉnh các Anchor, có hiệu ứng khi hover, active*/
+h1 {
+    font-weight: normal;
+    font-size: 25px;
+    padding-top: 5px;
+}
+a {
+    text-decoration:none;
+    color:#ffffff;
+}
+.nav-link{
+    color: #000000 !important;
+}
+.navbar-brand {
+    font-weight: bold;
+}
+.small_head{
+    font-size:16px;
+    font-weight: normal;
+}
+
+a:hover {
+    color: #dca457;
+}
+a:active{
+    color:#f4cb09;
+}
+.active-pos a{
+    color: #f4cb09 !important; /* hiển thị trang đang ở*/
+}
+/*hiệu ứng hover, active tương tự a*/
+#menu li:hover a{
+    color:#dca457;
+}
+#menu li:active a{
+    color:#f4cb09;
+}
+#menu li a{
+    text-decoration: none;
+    color:#ffffff;
+}
+#about #about_text {
+    font-size: 14px
+}
+#about {
+    margin:30px 10px;
+}
+#about_goal{
+    font-size: 18px;
+    font-weight: bold;
+}
+#business{
+    padding: 30px 0;
+}
+#business_dash {
+    color: #ffffff;
+}
+#business_content {
+    background-image:url('../img/Communication.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-clip: content-box;
+}
+#business_head{
+    margin-left: 70px;
+    margin-top: 30px;
+}
+#business div.row div{
+    padding:0; /*bỏ padding để 2 col cạnh nhau*/
+} 
+@media screen and (min-width: 992px){
+.left-xl {
+    margin-left: -3.75em;
+} /*chỉnh các hình nhỏ về giữa màn hình ở màn hình lớn*/
+}    
+#business_head{
+    margin-left: 70px;
+}
+#business_list {
+    list-style-type: none;
+    list-style-position: inside;
+}
+#business_list li div{
+    white-space: wrap;
+    color: #ffffff;
+    font-size: 14px;
+}
+.businessimg1 {
+    width:100%;
+}
+#business_list li div a{
+    font-size: 18px;
+    font-weight: bold;
+}
+.key_img {
+    width:55px;
+    height: 55px;
+    border-radius: 55px;
+    margin: auto;
+}
+/*chỉnh màu anchor, đây là anchor duy nhất màu đen trong trang*/
+.black-a{
+    color:#000000;
+}
+#lastest_news {
+    font-size: 20px;
+    font-weight: bold;
+}
+.flex1 {
+    align-items: flex-start; 
+    /*bootstrap 4 dùng flex, ghi đè thuộc tính align-items: flex-start để hiện các khung không cần cùng độ cao*/
+}
+.news_content {
+    border: 1px solid #808080;
+    margin: 20px;
+    padding: 0;
+}
+.news_content img {
+    width:100% ;
+    height: 250px;
+}
+/*flex để hiên thị cùng dòng, justify để hiển thị giữa màn hình*/
+#news {
+    padding: 30px 0;
+}
+.news_text p{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 15px 0;
+}
+.news_text a{
+    font-size: 14px;
+    padding: 0 15px;
+}
+.news_description {
+    font-size: 14px !important;
+    font-weight: normal !important;
+}
+#news #news_head {
+    margin: 0 0 0 30px;
+}
+#contact{
+    padding: 30px 0;
+    margin: 10px;
+}
+#contact p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#input1 input{
+    font-size: 14px;
+    width: 95%;
+}
+/*điều chỉnh các input theo vị trí phù hợp*/
+#input_info1 {
+    padding: 15px;
+    margin: 5px;
+} 
+#input_info2 {
+    padding: 15px;
+    margin: 5px;
+
+}
+#input_info3 {
+    padding: 15px;
+    margin: 5px;
+
+}
+@media screen and (min-width: 992px){
+    #input1{
+        margin: 10px;
+    }
+    #input_info1 {
+        margin-left: -15px;
+} 
+    #input_info2 {
+        margin-left: -7.5px;
+    }
+    #contact {
+        padding-bottom: 70px;
+    }
+}
+#contact_img img {
+    width: 100%;
+    padding: 10px;
+}
+textarea{
+    resize: none;
+    padding: 15px;
+    width: 95%;
+    display: block;
+    margin: 5px;
+    font-size: 14px;
+}
+
+/*hiện nút submit luôn ở giữa*/
+#submit {
+    display:block;
+    margin: auto;
+    padding: 10px 20px;
+    background-color: #ffb400;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+}
+@media screen and (min-width: 992px){
+    #submit {
+        position: absolute;
+        left: 100%;
+        margin: 10px -80px;
+    }
+}
+#submit:hover {
+    background-color: #dca457;
+}
+
+footer {
+    color: #ffffff;
+}
+.footer_content {
+    display: block;
+    margin: 10px;
+}
+.footer_content h2{
+    font-size: 21px;
+}
+.bold{
+    margin: auto;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 14px;
+}
+.footer_content p{
+    font-size: 14px
+}
+.footer_content a{
+    font-size: 14px;
+}
+.footer_content ul{
+    list-style-type: none;
+    list-style-position: inside;
+    padding-left: 0
+}
+
+#contain {
+    border-bottom: 2px solid #ffffff;
+}
+#email_end{
+    background-color: #343a40;
+    padding: 10px 0;
+    margin: 0 0 1px 5px;
+    border: none;
+    
+}
+@media screen and (min-width: 992px){
+    #email_end {
+       width: calc(100% - 80px); 
+    }
+}
+#submit_end{
+    border: none;
+    padding: 5px 8px;
+    border-radius: 2px;
+    background-color: #ffffff;
+}
+#submit_end:hover {
+    background-color: #808080;
+}
+.footer_content form{
+    width: 250px;
+    border-bottom: 2px solid #ffffff;
+}
+@media screen and (max-width: 300px){
+    #email_end{
+        width:70%;
+    }
+    #submit_end{
+        font-size:10px;
+        width: 20%;
+    }
+    .footer_content form{
+        width:100%;
+    }
+}
+#cre {
+    text-align:center;
+    padding: 5px 0;
+}
+@media screen and (min-width: 576px){
+    nav.bg-light{
+        background-color: #007bff !important;
+    }
+    .navbar-brand{
+        color: #ffffff !important;
+    }
+    .nav-link{
+        color: #ffffff !important;
+    }
+}
+@media screen and (min-width: 576px){
+    .navbar-brand{
+        width:50%;
+        text-align: center;
+    }
+}
+.restrictwidth {
+    max-width: 580px;
+}
+#our-business{
+    padding-top: 30px;
+    margin: 10px;
+}
+div.news-post{
+    height:80px;
+}
+#news1 {
+    background-image:url('../img/9oymWKS.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-clip: content-box;
+}
+#news2 {
+    background-image:url('../img/N9c8DaB.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-clip: content-box;
+}
+#news3 {
+    background-image:url('../img/jmrZrhu.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-clip: content-box;
+}
+#news4 {
+    background-image:url('../img/6DjzeuX.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-clip: content-box;
+}
+#news5 {
+    background-image:url('../img/BBI9X7h.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-clip: content-box;
+}
+#map {
+    background-image:url('../img/Map.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-clip: content-box; 
+    height: 250px;
+    padding-top: 30px;
+}
+#news-post-head{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size:15px;
+    font-weight: normal;
+    padding: 10px 0 5px;
+}
+.news-post-row{
+    padding: 5px;
+    border-bottom: 1px solid #dcdcdc;
+
+}
+dt, dd {
+    height: 60px;
+}
+#company-info dd::before {
+    content: ":";
+    margin-right: 5px;
+}
+#company-info {
+    margin-top: 20px;
+}
+@media screen and (min-width: 400px){
+    dt, dd {
+        height: 50px;
+    }
+}
+.big-head {
+    text-transform: uppercase;
+    text-align: center;
+}
+.big-dash {
+    color: #0000ff;
+    font-size: 30px !important;
+    text-align: center;
+}
+#your-info input[type="submit"]{
+    float: right;
+    margin: 10px -10px 10px 0;
+    background-color: #ffb400;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 5px 15px;
+}
+#your-info span {
+    font-weight: bold;
+}
+#your-info li{
+    height: 60px;
+}
+#your-info textarea {
+    width: 100%;
+    resize: none;
+    padding: 15px;
+    display: block;
+    margin: 0;
+    font-size: 14px;
+    border-radius: 5px;
+}
+#your-info input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #808080;
+}
+.hovernone:hover {
+    color:#000000;
+    text-decoration:none;
+}
