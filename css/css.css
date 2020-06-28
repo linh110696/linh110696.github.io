@@ -93,7 +93,7 @@ a:active{
     color: #ffffff;
     font-size: 14px;
 }
-.img-100 {
+.businessimg1 {
     width:100%;
 }
 #business_list li div a{
@@ -200,7 +200,6 @@ textarea{
     display: block;
     margin: 5px;
     font-size: 14px;
-    border: 1px solid #808080;
 }
 
 /*hiện nút submit luôn ở giữa*/
@@ -322,7 +321,7 @@ footer {
     margin: 10px;
 }
 div.news-post{
-    height:85px;
+    height:80px;
 }
 #news1 {
     background-image:url('../img/9oymWKS.jpg');
@@ -378,7 +377,7 @@ div.news-post{
 .news-post-row{
     padding: 5px;
     border-bottom: 1px solid #dcdcdc;
-    font-size: 15px;
+
 }
 dt, dd {
     height: 60px;
@@ -406,22 +405,13 @@ dt, dd {
 }
 #your-info input[type="submit"]{
     float: right;
-    margin: 30px -10px 10px 0;
+    margin: 10px -10px 10px 0;
     background-color: #ffb400;
     border-radius: 5px;
     border: none;
     color: #ffffff;
     font-size: 15px;
     padding: 5px 15px;
-}
-/*bỏ dấu mũi tên chọn số ở input type="number"*/
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
-input[type=number] {
-    -moz-appearance: textfield;
 }
 #your-info span {
     font-weight: bold;
@@ -435,7 +425,7 @@ input[type=number] {
     padding: 15px;
     display: block;
     margin: 0;
-    font-size: 15px;
+    font-size: 14px;
     border-radius: 5px;
 }
 #your-info input {
@@ -447,3 +437,8 @@ input[type=number] {
     color:#000000;
     text-decoration:none;
 }
+/* #testimg {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+} */
