@@ -60,7 +60,8 @@ a:active{
     font-weight: bold;
 }
 #business{
-    padding: 30px 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 #business_dash {
     color: #ffffff;
@@ -76,13 +77,13 @@ a:active{
     margin-left: 70px;
     margin-top: 30px;
 }
-#business div.row div{
-    padding:0; /*bỏ padding để 2 col cạnh nhau*/
-} 
 @media screen and (min-width: 992px){
 .left-xl {
     margin-left: -3.75em;
 } /*chỉnh các hình nhỏ về giữa màn hình ở màn hình lớn*/
+#business div.row div{
+    padding:0; /*bỏ padding để 2 col cạnh nhau*/
+} 
 }    
 #business_head{
     margin-left: 70px;
@@ -132,7 +133,8 @@ a:active{
 }
 /*flex để hiên thị cùng dòng, justify để hiển thị giữa màn hình*/
 #news {
-    padding: 30px 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .news_text p{
     font-size: 18px;
@@ -151,7 +153,8 @@ a:active{
     margin: 0 0 0 30px;
 }
 #contact{
-    padding: 30px 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
     margin: 10px;
 }
 #contact p{
