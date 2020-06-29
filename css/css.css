@@ -440,6 +440,9 @@ dt, dd {
 .img100 {
     width:100%;
 }
+.news-post {
+    font-size: 14.5px;
+}
 /* #testimg {
     object-fit: cover;
     width: 100%;
